@@ -1,0 +1,9 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+mediapipe==0.10.33  # 1.0.x aborts on macOS (Metal "Service is unavailable" in PoseLandmarker)
+opencv-python>=4.9
+numpy>=1.26
+scipy>=1.12
+pydantic>=2.6
+matplotlib>=3.8

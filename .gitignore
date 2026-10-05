@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Large / local-only artifacts
+models/*.task
+outputs/
+test_videos/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+.DS_Store
