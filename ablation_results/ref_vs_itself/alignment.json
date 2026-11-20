@@ -1,0 +1,12 @@
+{
+  "reference_video": "../../../../Users/natalielim/Documents/cis 5810/dance_comparison_project/backend/data/5ab684fe649e47e794c479af5791fa3c/reference.mp4",
+  "comparison_video": "../../../../Users/natalielim/Documents/cis 5810/dance_comparison_project/backend/data/5ab684fe649e47e794c479af5791fa3c/reference.mp4",
+  "offset_seconds": 0.0,
+  "overlap_start_ref": 0.0,
+  "overlap_end_ref": 15.021,
+  "reference_fps": 30.0,
+  "comparison_fps": 30.0,
+  "alignment_confidence": 1.0,
+  "reference_trimmed": "ref_trimmed.mp4",
+  "comparison_trimmed": "comp_trimmed.mp4"
+}

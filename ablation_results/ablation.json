@@ -1,0 +1,624 @@
+[
+ {
+  "pair": "cover (audio-aligned)",
+  "config": "B0 baseline",
+  "score": 52.7,
+  "segs": 6,
+  "flag": 76.0,
+  "mirrored": false,
+  "lag_med_s": 0.0,
+  "worst": [
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "head",
+    "right_arm"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "right_arm",
+    "head"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ]
+  ]
+ },
+ {
+  "pair": "cover (audio-aligned)",
+  "config": "I1 +mirror",
+  "score": 61.3,
+  "segs": 7,
+  "flag": 43.6,
+  "mirrored": true,
+  "lag_med_s": 0.0,
+  "worst": [
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "left_leg",
+    "right_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ]
+  ]
+ },
+ {
+  "pair": "cover (audio-aligned)",
+  "config": "I2 +lag tolerance",
+  "score": 68.0,
+  "segs": 4,
+  "flag": 16.2,
+  "mirrored": true,
+  "lag_med_s": 0.033,
+  "worst": [
+   [
+    "left_leg",
+    "right_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ]
+  ]
+ },
+ {
+  "pair": "cover (audio-aligned)",
+  "config": "I3 +motion weights",
+  "score": 60.9,
+  "segs": 6,
+  "flag": 57.8,
+  "mirrored": true,
+  "lag_med_s": 0.033,
+  "worst": [
+   [
+    "head",
+    "left_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ]
+  ]
+ },
+ {
+  "pair": "low-confidence align",
+  "config": "B0 baseline",
+  "score": 35.5,
+  "segs": 1,
+  "flag": 100.0,
+  "mirrored": false,
+  "lag_med_s": 0.0,
+  "worst": [
+   [
+    "left_arm",
+    "head"
+   ]
+  ]
+ },
+ {
+  "pair": "low-confidence align",
+  "config": "I1 +mirror",
+  "score": 35.5,
+  "segs": 1,
+  "flag": 100.0,
+  "mirrored": false,
+  "lag_med_s": 0.0,
+  "worst": [
+   [
+    "left_arm",
+    "head"
+   ]
+  ]
+ },
+ {
+  "pair": "low-confidence align",
+  "config": "I2 +lag tolerance",
+  "score": 37.3,
+  "segs": 2,
+  "flag": 91.7,
+  "mirrored": false,
+  "lag_med_s": -0.067,
+  "worst": [
+   [
+    "torso",
+    "head"
+   ],
+   [
+    "head",
+    "left_arm"
+   ]
+  ]
+ },
+ {
+  "pair": "low-confidence align",
+  "config": "I3 +motion weights",
+  "score": 36.8,
+  "segs": 2,
+  "flag": 91.7,
+  "mirrored": false,
+  "lag_med_s": -0.067,
+  "worst": [
+   [
+    "torso",
+    "head"
+   ],
+   [
+    "head",
+    "left_arm"
+   ]
+  ]
+ },
+ {
+  "pair": "ref vs itself",
+  "config": "B0 baseline",
+  "score": 100.0,
+  "segs": 0,
+  "flag": 0.0,
+  "mirrored": false,
+  "lag_med_s": 0.0,
+  "worst": []
+ },
+ {
+  "pair": "ref vs itself",
+  "config": "I1 +mirror",
+  "score": 100.0,
+  "segs": 0,
+  "flag": 0.0,
+  "mirrored": false,
+  "lag_med_s": 0.0,
+  "worst": []
+ },
+ {
+  "pair": "ref vs itself",
+  "config": "I2 +lag tolerance",
+  "score": 100.0,
+  "segs": 0,
+  "flag": 0.0,
+  "mirrored": false,
+  "lag_med_s": 0.0,
+  "worst": []
+ },
+ {
+  "pair": "ref vs itself",
+  "config": "I3 +motion weights",
+  "score": 100.0,
+  "segs": 0,
+  "flag": 0.0,
+  "mirrored": false,
+  "lag_med_s": 0.0,
+  "worst": []
+ },
+ {
+  "pair": "ref vs mirrored ref",
+  "config": "B0 baseline",
+  "score": 68.2,
+  "segs": 6,
+  "flag": 32.9,
+  "mirrored": false,
+  "lag_med_s": 0.0,
+  "worst": [
+   [
+    "head",
+    "right_arm"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "left_arm",
+    "head"
+   ],
+   [
+    "head",
+    "right_arm"
+   ],
+   [
+    "head",
+    "left_arm"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ]
+  ]
+ },
+ {
+  "pair": "ref vs mirrored ref",
+  "config": "I1 +mirror",
+  "score": 98.3,
+  "segs": 0,
+  "flag": 0.0,
+  "mirrored": true,
+  "lag_med_s": 0.0,
+  "worst": []
+ },
+ {
+  "pair": "ref vs mirrored ref",
+  "config": "I2 +lag tolerance",
+  "score": 98.3,
+  "segs": 0,
+  "flag": 0.0,
+  "mirrored": true,
+  "lag_med_s": 0.0,
+  "worst": []
+ },
+ {
+  "pair": "ref vs mirrored ref",
+  "config": "I3 +motion weights",
+  "score": 97.8,
+  "segs": 0,
+  "flag": 0.0,
+  "mirrored": true,
+  "lag_med_s": 0.0,
+  "worst": []
+ },
+ {
+  "pair": "ref vs itself +0.1s",
+  "config": "B0 baseline",
+  "score": 85.9,
+  "segs": 1,
+  "flag": 2.3,
+  "mirrored": false,
+  "lag_med_s": 0.0,
+  "worst": [
+   [
+    "left_arm",
+    "right_arm"
+   ]
+  ]
+ },
+ {
+  "pair": "ref vs itself +0.1s",
+  "config": "I1 +mirror",
+  "score": 85.9,
+  "segs": 1,
+  "flag": 2.3,
+  "mirrored": false,
+  "lag_med_s": 0.0,
+  "worst": [
+   [
+    "left_arm",
+    "right_arm"
+   ]
+  ]
+ },
+ {
+  "pair": "ref vs itself +0.1s",
+  "config": "I2 +lag tolerance",
+  "score": 99.4,
+  "segs": 0,
+  "flag": 0.0,
+  "mirrored": false,
+  "lag_med_s": -0.1,
+  "worst": []
+ },
+ {
+  "pair": "ref vs itself +0.1s",
+  "config": "I3 +motion weights",
+  "score": 99.4,
+  "segs": 0,
+  "flag": 0.0,
+  "mirrored": false,
+  "lag_med_s": -0.1,
+  "worst": []
+ },
+ {
+  "pair": "ref vs itself +0.7s",
+  "config": "B0 baseline",
+  "score": 61.8,
+  "segs": 5,
+  "flag": 43.6,
+  "mirrored": false,
+  "lag_med_s": 0.0,
+  "worst": [
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "right_leg",
+    "right_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ]
+  ]
+ },
+ {
+  "pair": "ref vs itself +0.7s",
+  "config": "I1 +mirror",
+  "score": 61.8,
+  "segs": 5,
+  "flag": 43.6,
+  "mirrored": false,
+  "lag_med_s": 0.0,
+  "worst": [
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "right_leg",
+    "right_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ]
+  ]
+ },
+ {
+  "pair": "ref vs itself +0.7s",
+  "config": "I2 +lag tolerance",
+  "score": 67.6,
+  "segs": 5,
+  "flag": 35.3,
+  "mirrored": false,
+  "lag_med_s": -0.1,
+  "worst": [
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "right_arm",
+    "head"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ]
+  ]
+ },
+ {
+  "pair": "ref vs itself +0.7s",
+  "config": "I3 +motion weights",
+  "score": 60.5,
+  "segs": 6,
+  "flag": 52.5,
+  "mirrored": false,
+  "lag_med_s": -0.1,
+  "worst": [
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ]
+  ]
+ },
+ {
+  "pair": "ref vs itself +1.5s",
+  "config": "B0 baseline",
+  "score": 59.7,
+  "segs": 8,
+  "flag": 53.2,
+  "mirrored": false,
+  "lag_med_s": 0.0,
+  "worst": [
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "head",
+    "left_arm"
+   ]
+  ]
+ },
+ {
+  "pair": "ref vs itself +1.5s",
+  "config": "I1 +mirror",
+  "score": 59.7,
+  "segs": 8,
+  "flag": 53.2,
+  "mirrored": false,
+  "lag_med_s": 0.0,
+  "worst": [
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "head",
+    "left_arm"
+   ]
+  ]
+ },
+ {
+  "pair": "ref vs itself +1.5s",
+  "config": "I2 +lag tolerance",
+  "score": 64.6,
+  "segs": 9,
+  "flag": 39.4,
+  "mirrored": false,
+  "lag_med_s": 0.0,
+  "worst": [
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "right_arm",
+    "left_leg"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "right_arm",
+    "head"
+   ]
+  ]
+ },
+ {
+  "pair": "ref vs itself +1.5s",
+  "config": "I3 +motion weights",
+  "score": 58.1,
+  "segs": 6,
+  "flag": 59.3,
+  "mirrored": false,
+  "lag_med_s": -0.033,
+  "worst": [
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "right_arm",
+    "left_arm"
+   ],
+   [
+    "left_arm"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ],
+   [
+    "left_arm",
+    "right_arm"
+   ]
+  ]
+ }
+]
